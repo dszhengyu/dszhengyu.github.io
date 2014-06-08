@@ -27,7 +27,7 @@ nav:
 author:
     name: Appendix
     email: dszhenegyu@qq.com
-    imageLink: http://b58.photo.store.qq.com/psu?/555e93ef-49e0-49a7-972f-faa899fbfd21/bGUOhe7nQ7I2F8qqc9ePIQVlfj1Iy6B2c.vxfQ7alR8!/b/YQsB1BqFgwAAYp4ylSKtIwAA&a=45&b=58&bo=bgBuAAAAAAADACU!&rf=viewer_4&t=5
+    imageLink: /images/picture.jpg
     simpleIntro: 屈云萌我爱你
     detailIntro:
       <p>以前只在QQ空间上写过日志，看了许多大牛都有自己博客，买了域名，花了一两天弄懂了Jekyll之后决定开始创建一个自己的博客。</p>
