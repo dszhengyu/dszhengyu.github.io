@@ -16,8 +16,6 @@ favicon: http://jekyllrb.com/favicon.png
 nav:
   - text: 首页
     url: /index.html
-  - text: 分类目录 
-    url: /categories.html
   - text: 文章归档
     url: /archives.html
   - text: 联系我
@@ -27,7 +25,7 @@ nav:
 author:
     name: Appendix
     email: dszhenegyu@qq.com
-    imageLink: http://v2.freep.cn/3tb_140609005821dgt6512293.jpg
+    imageLink:http://url.hoop8.com/BXq
     simpleIntro: 屈云萌我爱你
     detailIntro:
       <p>以前只在QQ空间上写过日志，看了许多大牛都有自己博客，买了域名，花了一两天弄懂了Jekyll之后决定开始创建一个自己的博客。</p>
