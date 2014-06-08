@@ -22,8 +22,6 @@ nav:
     url: /archives.html
   - text: 联系我
     url: /contact.html
-  - text: 友情链接
-    url: /links.html
 
 #Author config
 author:
@@ -36,8 +34,6 @@ author:
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
-  - class: icon-rss
-    url: /atom.xml
   - class: icon-weibo
     url: http://weibo.com/u/2560866771
   - class: icon-renren
@@ -52,8 +48,7 @@ customLinks:
       url: http://jekyllrb.com
     - text: Jekyll Theme
       url: http://www.zhanxin.info/themes.html
-    message: Friends
-
+      
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:
   config: true
@@ -62,8 +57,8 @@ googleAnaly:
 #comment config
 disqus:
   config: false
-  id: piznblog
+  id: 
 
 duoshuo:
   config: false
-  id: zhanxin
+  id: 
