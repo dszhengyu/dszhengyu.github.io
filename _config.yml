@@ -6,7 +6,7 @@ safe:  false
 
 #Site config
 title: Appendix's Blog
-description: Ieave Some Footprint
+description: Leave Some Footprint
 keywords: Jekyll Theme
 url: http://appendix.pw
 feed: /atom.xml
