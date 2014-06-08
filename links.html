@@ -1,16 +1,28 @@
 ---
 layout: default
-title: 友情链接
-description: 这是 PIZn 的又一个博客，它是基于 Jekyll 搭建起来的。在这里，不仅仅是用来快速记录工作，学习，生活的一点一滴的地方，更是 PIZn 对 Jekyll 的学习和使用的一次有意义的实践。
-keywords: PIZn, GitHub, Jekyll, Plugins, Works, Archives, Quotes, Violet, css, html, javascript, wordpress, logo, design, geek
+title: Links
+comment: true
 ---
 
-<p class="lotus-breadcrub">
-    <a href="{{ site.url }}/index.html" rel="nofollow" rel="nofollow" title="首页">Home</a>
-    <span> &gt; </span>
-    {{ page.title }}
-</p>
-
-<h1 class="lotus-pagetit">Links</h1>
-<article id="about">
-</article>
+<div class="article">
+    <h3 class="title">{{ page.title }}</h3>
+    <div class="links">
+        {% for i in site.customLinks %}
+        <h4 class="links-category fn-clear">{{ i.message }}</h4>
+        <ul class="links-list fn-clear">
+                {% for link in i.item %}
+                <li><a href="{{ link.url }}" target="_blank">{{ link.text }}</a></li>
+                {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+    <div class="comment">
+        {% if site.disqus.config %}
+        <div id="disqus_thread"></div>
+        {% else %}
+            {% if site.duoshuo.config %}
+            <div class="ds-thread"></div>
+            {% endif %}
+        {% endif %}
+    </div>
+</div>
