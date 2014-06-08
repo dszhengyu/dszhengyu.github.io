@@ -1,4 +1,4 @@
-markdown: redcarpet
+﻿markdown: redcarpet
 pygments: true
 paginate: 8
 
@@ -27,7 +27,7 @@ nav:
 author:
     name: Appendix
     email: dszhenegyu@qq.com
-    imageLink: http://tineye.com/search/show_match/99182b4dc6ff825531fd3c51f082d571103cdbb6/c6f1d3cd70ee9c06e41cd9d795b2bec53e17aa32b46a82482bd9dd193ab0eba8?m13=-0.014304&m21=0.000644721&m22=1.00016&m23=-0.0493795&m11=1.00016&m12=-0.000644721
+    imageLink: http://v2.freep.cn/3tb_140609005821dgt6512293.jpg
     simpleIntro: 屈云萌我爱你
     detailIntro:
       <p>以前只在QQ空间上写过日志，看了许多大牛都有自己博客，买了域名，花了一两天弄懂了Jekyll之后决定开始创建一个自己的博客。</p>
