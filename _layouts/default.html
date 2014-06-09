@@ -26,19 +26,11 @@
         <link href='http://fonts.googleapis.com/css?family=Spirax' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{{ site.url }}/css/syntax.css">
         <link rel="stylesheet" href="{{ site.url }}/css/main.css">
-        {% if site.googleAnaly.config %}
         <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', '{{ site.googleAnaly.id }}']);
-            _gaq.push(['_trackPageview']);
-            (function() {
-              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-              var s = document.getElementsByTagName('script')[0];
-                  s.parentNode.insertBefore(ga, s);
-            })();
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F87210f6c3c000544743345aec7f82520' type='text/javascript'%3E%3C/script%3E"));
         </script>
-        {% endif %}
+
     </head>
     <body>
         <div class="head fn-clear">
