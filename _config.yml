@@ -35,7 +35,7 @@ follow:
   - class: icon-weibo
     url: http://weibo.com/u/2560866771
   - class: icon-renren
-    url: http://renren.com
+    url: http://www.renren.com/474133926/profile
   - class: icon-github-alt
     url: http://github.com/dszhengyu
 
@@ -44,6 +44,8 @@ customLinks:
   - item:
     - text: Jekyll
       url: http://jekyllrb.com
+    - text: oilbeater
+      url: http://oilbeater.com/
     - text: Jekyll Theme
       url: http://www.zhanxin.info/themes.html
       
