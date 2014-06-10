@@ -48,11 +48,6 @@ customLinks:
       url: http://oilbeater.com/
     - text: Jekyll Theme
       url: http://www.zhanxin.info/themes.html
-      
-#googleAnaly, your id link UA-12345678-X
-googleAnaly:
-  config: true
-  id: UA-40169250-1
 
 #comment config
 disqus:
