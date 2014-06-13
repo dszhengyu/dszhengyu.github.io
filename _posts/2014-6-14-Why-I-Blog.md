@@ -3,7 +3,7 @@ layout: post
 title:  Why I Blog
 date:   2014-06-14 00:05:00
 category: 
-permalink: pretty
+permalink: Why-I-Blog
 ---
 ##Why I Blog
 ###起因
