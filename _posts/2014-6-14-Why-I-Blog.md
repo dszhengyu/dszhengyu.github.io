@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  Why I Blog
 date:   2014-06-14 00:05:00
@@ -33,7 +33,7 @@ category:
 
 前天刚拿了山大杯冠军哈哈，女朋友说拿冠军就献吻  
 上图  
-![kiss](https://raw.githubusercontent.com/dszhengyu/dszhengyu.github.io/master/images/kiss.jpg）  
+![kiss](./images/kiss.jpg）  
 
 ###关于隐私
 君子坦荡荡啦~
