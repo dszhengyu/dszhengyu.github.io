@@ -32,6 +32,8 @@ author:
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
+  - class: icon-rss
+      url: /atom.xml
   - class: icon-weibo
     url: http://weibo.com/u/2560866771
   - class: icon-renren
