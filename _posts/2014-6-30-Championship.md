@@ -1,12 +1,13 @@
-﻿---
+---
 layout: post
 title:  Championship
-date:   2014-06-14 00:05:00
+date:   2014-06-30 00:05:00
 category: 
 permalink: championship
 ---
+
 #信息是冠军！
-***
+
 文长慎入哈哈。  
 终于被三大主科虐成狗之后有空来写写总结了。以下仅代表个人观点~  
 
@@ -69,7 +70,7 @@ permalink: championship
 上学期小组赛被淘汰，当时心都凉了，一万个对不起09球霸。  
 终于再次登顶，很爽！  
 （附上小组赛第三场后合影）  
-![championship](/images/championship.jpeg)
+![championship](/images/championship.jpg)
 
 &copy;版权归郑宇所有  
 以上提及球队若对描述有异议可以联系我修改，提及仅为分析，并无恶意。
