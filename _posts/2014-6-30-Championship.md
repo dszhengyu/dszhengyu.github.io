@@ -70,7 +70,7 @@ permalink: championship
 上学期小组赛被淘汰，当时心都凉了，一万个对不起09球霸。  
 终于再次登顶，很爽！  
 （附上小组赛第三场后合影）  
-![championship](/images/championship.jpg)
+![championship](/images/championship.jpeg)
 
 &copy;版权归郑宇所有  
 以上提及球队若对描述有异议可以联系我修改，提及仅为分析，并无恶意。
