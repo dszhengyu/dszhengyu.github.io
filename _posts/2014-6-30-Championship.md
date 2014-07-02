@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  Championship
+title:  信息是冠军
 date:   2014-06-30 00:05:00
 category: 
-permalink: championship
+permalink: 信息是冠军
 ---
-
-#信息是冠军！
 
 文长慎入哈哈。  
 终于被三大主科虐成狗之后有空来写写总结了。以下仅代表个人观点~  
