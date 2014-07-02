@@ -3,7 +3,7 @@ layout: post
 title: 成为大神
 date: 2014-7-3 3:05:00
 category:
-permanlink: 成为大神
+permalink: 成为大神
 ---
 
 ###真是个说来话长的文章
