@@ -3,7 +3,7 @@ layout: post
 title: 成为大神
 date: 2014-7-3 3:05:00
 category:
-permanlink: to-be-great
+permanlink: 成为大神
 ---
 ###真是个说来话长的文章
 高中初中看了很多电脑报，电脑爱好者，数字通讯之类的杂志，堆起来应该比我高吧，就觉得搞IT很牛逼，高考志愿清一色 电子信息科学与技术 
