@@ -25,7 +25,7 @@ nav:
 author:
     name: Appendix
     email: dszhenegyu@qq.com
-    imageLink: http://imgdata.hoop8.com/1406/882-558930133.jpg
+    imageLink: /images/picture.jpg
     simpleIntro: Everything that kills me makes me feel alive.
     detailIntro:
       <p>以前只在QQ空间上写过日志，看了许多大牛都有自己博客，买了域名，花了一两天弄懂了Jekyll之后决定开始创建一个自己的博客。</p>
