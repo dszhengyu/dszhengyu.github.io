@@ -57,5 +57,5 @@ disqus:
   id: 
 
 duoshuo:
-  config: false
-  id: 
+  config: true
+  id: appendix
