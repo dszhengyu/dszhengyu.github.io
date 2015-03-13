@@ -1,6 +1,6 @@
 ###郑宇
 山东大学  
-2012级 信息科学与工程学院  
+本科2012级 信息科学与工程学院  
 (+86) 183-6611-2317  
 [dszhengyu@qq.com](mailto:dszhengyu@qq.com)  
 [appendix.pw](appendix.pw)  
@@ -20,12 +20,12 @@
  >Cousera-Machine Learning(Andrew Ng)  
 * 其他：计算机网络 数据库 软件工程  
  >《图解TCP/IP》 《构建之法》  
-  
+* 英语：六级538  
 ****  
 ###*项目经历*：  
 * 白细胞分割及分类：[源码](https://github.com/dszhengyu/lj)  
  Qt(构建图形界面)，opencv(图像处理分割白细胞)，svm及ann(白细胞分类)  
- 利用已有文献及专利，在一定的算法指导下，独立完成程序设计，得到老师的赞赏。   
+ 利用已有文献及专利，在一定的算法指导下，独立完成程序设计。   
   
 ****  
 ###*校园经历*：   
