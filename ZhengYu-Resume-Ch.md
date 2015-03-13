@@ -3,7 +3,7 @@
 本科2012级 信息科学与工程学院  
 (+86) 183-6611-2317  
 [dszhengyu@qq.com](mailto:dszhengyu@qq.com)  
-[appendix.pw](appendix.pw)  
+[appendix.pw](http://appendix.pw)  
 [github](https://github.com/dszhengyu)  
 ****  
 ###*技术能力*：  
