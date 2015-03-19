@@ -5,6 +5,7 @@ BS-2012 School of Information Science and Engineering
 [dszhengyu@qq.com](mailto:dszhengyu@qq.com)  
 [appendix.pw](http://appendix.pw)  
 [github](https://github.com/dszhengyu)  
+
 ****  
 ###*Technical Skills *:  
 * Program language: C > C++ > Java  
@@ -21,11 +22,13 @@ BS-2012 School of Information Science and Engineering
 * Other： Network Database Software-Engineering  
  >《Illustrate TCP/IP》  
 * English: Cet-6 538  
+
 ****  
 ###*Project Experience*：  
 * Nuclei Segmentation and Classification：[Source Code](https://github.com/dszhengyu/lj)  
  Qt(UI), opencv(image process to segment nuclei), svm&ann(nuclei classification)  
  Based on patent and paper, under limited algorithm directed, complete the software independently.  
+
 ****  
 ###*University Experience*:  
 * [Captain of school soccer team](http://dwz.cn/IseFootballTeam): lead the team to win "SDU-Cup" twice.  
