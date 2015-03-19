@@ -8,8 +8,8 @@ BS-2012 School of Information Science and Engineering
 ****  
 ###*Technical Skills *:  
 * Program language: C > C++ > Java  
- >《The C Programming Language》 《C Traps and Pitfalls》 《Expert C Programming》 
-  《C++ Primer》 《Effective C++》 《Head First Design Pattern》
+ >《The C Programming Language》 《C Traps and Pitfalls》 《Expert C Programming》  
+  《C++ Primer》 《Effective C++》 《Head First Design Pattern》  
 * Data structure and algorithm:  
  >《Data Structures and Algorithm Analysis in C》 《Introduction to Algorithms》(half)  
 * Basic knowledge on computer science:  
