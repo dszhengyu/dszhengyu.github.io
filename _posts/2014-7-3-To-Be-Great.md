@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: 成为大神
 date: 2014-7-3 3:05:00
-category:
+category:阶段小结
 permalink: 成为大神
 ---
 
