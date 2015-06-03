@@ -33,7 +33,7 @@ Python软件可以从[这](http://www.scipy.org/install.html)下载, 都包含�
         user_balance = pd.read_csv('user_balance_table.csv', parse_dates = ['report_date'])
         timeGroup = user_balance.groupby(['report_date'])
         purchaseRedeemTotal = timeGroup['total_purchase_amt', 'total_redeem_amt'].sum()
-        print（purchaseRedeemTotal)
+        print(purchaseRedeemTotal)
 
  至此我们就成功地提取出来了数据中2013-07-01到2014-08-31中的时间序列, IPython中打印出来是这样的:  
  ![purchaseRedeemTotal](/images/purchaseRedeemTotal.jpg)
@@ -47,9 +47,9 @@ Pandas的DataFrame对象可以直接打印出来
  ![purchaseRedeemTotalPlot](/images/purchaseRedeemTotalPlot.png)
  
 3. ARIMA(p,q,d)选取  
-先根据[俏乡丽人的帖子](http://bbs.aliyun.com/read/244892.html?spm=5176.7189909.0.0.XHnEkx)中介绍的论文(参考文献第一篇)和书籍对ARIMA有一个大致的了解,再进行应用.  
-以purchase为例, 核心代码如下:
-3.a 查看数据的ACF, PACF  
+ 先根据[俏乡丽人的帖子](http://bbs.aliyun.com/read/244892.html?spm=5176.7189909.0.0.XHnEkx)中介绍的论文(参考文献第一篇 )和书籍对ARIMA有一个大致的了解,再进行应用.  
+ 以purchase为例, 核心代码如下:
+ 3.a 查看数据的ACF, PACF  
 
 
         purchase = purchaseRedeemTotal['total_purchase_amt']#选取purchase 
@@ -59,13 +59,14 @@ Pandas的DataFrame对象可以直接打印出来
         purchasePACF = DataFrame(pacf(purchase))
         purchasePACF.plot(title = 'purchasePACF', kind = 'bar')
  
-出来的图像是这样的:  
-![purchaseACF](/images/purchaseACF.png)  
-![purchasePACF](/images/purchasePACF.png)  
-此时观察两幅图, PACF较快衰减到0,  但是ACF并没有, 所以应该进行差分. 转到b.  
-若PACF和ACF都能大致符合要求,则转到c.  
+ 出来的图像是这样的:  
+ ![purchaseACF](/images/purchaseACF.png)  
+ ![purchasePACF](/images/purchasePACF.png)  
+ 此时观察两幅图, PACF较快衰减到0,  但是ACF并没有, 所以应该进行差分. 转到b.  
 
-3.b 差分  
+ 若PACF和ACF都能大致符合要求,则转到c.  
+
+ 3.b 差分  
 
         purchaseDelta1 = delta1(purchase)
         purchaseDelta1.plot()
@@ -79,30 +80,29 @@ Pandas的DataFrame对象可以直接打印出来
         purchaseDelta1 = delta1(purchase)
         purchaseDelta1.plot()
         
-此时purchaseDelta1变成这样:  
-![purchaseDelta1](/images/purchaseDelta1.png)  
+ 此时purchaseDelta1变成这样:  
+ ![purchaseDelta1](/images/purchaseDelta1.png)  
 
 
-这时回到a再次检验差分后的时间序列的ACF及PACF是否符合标准.  
-一次差分后的序列的ACF和PACF看起来是这样的:  
-![purchaseDelta1ACF](/images/purchaseDelta1ACF.png)  
-![purchaseDelta1PACF](/images/purchaseDelta1PACF.png)  
-
-
-比差分之前有所改善,让我们接着往下走.  
+ 这时回到a再次检验差分后的时间序列的ACF及PACF是否符合标准.  
+ 一次差分后的序列的ACF和PACF看起来是这样的:  
+ ![purchaseDelta1ACF](/images/purchaseDelta1ACF.png)  
+ ![purchaseDelta1PACF](/images/purchaseDelta1PACF.png)  
+ 比差分之前有所改善,让我们接着往下走.  
   
-3.c 选择p, q, 训练模型, 预测  
-d已经确定为1, 然后再看图猜数字, p根据PACF大概确定为7, q根据ACF选为5, 开始训练模型并预测
+ 3.c 选择p, q, 训练模型, 预测  
+  
+ d已经确定为1, 然后再看图猜数字, p根据PACF大概确定为7, q根据ACF选为5, 开始训练模型并预测  
 
         purchaseModel = ARIMA(purchase, [7, 1, 5]).fit()
         purchasePredict = purchaseModel.predict('2014-09-01', '2014-09-30')
         
-此时已经预测出九月份申购的情况了, 如图:  
-![purchasePredict](/images/purchasePredict.png)  
+ 此时已经预测出九月份申购的情况了, 如图:  
+ ![purchasePredict](/images/purchasePredict.png)  
   
-3.d 模型检验  
-可以把模型的残差取出来, 检验是否为白噪声. 如果是白噪声, 说明已经把原始时间序列中的信息都提取出来了, 模型是成功地, 否则反之.  
-还有其他方法,例如查看模型训练之后的AIC, BIC等,大家自己探索, 非统计学专业表示完全搞不明白什么意思.    
+ 3.d 模型检验  
+ 可以把模型的残差取出来, 检验是否为白噪声. 如果是白噪声, 说明已经把原始时间序列中的信息都提取出来了, 模型是成功地, 否则反之.  
+ 还有其他方法,例如查看模型训练之后的AIC, BIC等,大家自己探索, 非统计学专业表示完全搞不明白什么意思.    
   
 ####注意事项  
 只是这么做是比较粗糙的, 关于ARIMA, 除了把上面几个步骤做的更细以外, 还有其他细节, 例如  
