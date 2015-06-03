@@ -1,9 +1,9 @@
-﻿---
-layout: post
-title:  资金流入流出非官方指南--ARIMA入门
-date:   2015-06-03 15:47:00
-category: 机器学习
-permalink: Fund-in-and-out-predict-competition-unofficial-guide-based-on-ARIMA
+---
+layout: post  
+title:  资金流入流出非官方指南--ARIMA入门  
+date:   2015-06-03 15:47:00  
+category: 机器学习  
+permalink: Fund-in-and-out-predict-competition-unofficial-guide-based-on-ARIMA  
 ---  
 ##写在前面  
 [比赛赛题](http://tianchi.aliyun.com/competition/introduction.htm?spm=5176.100066.333.4.oOVDaA&raceId=3)  
