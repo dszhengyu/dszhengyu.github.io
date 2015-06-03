@@ -7,12 +7,12 @@ permalink: The-Lighthouse
 ---  
 
 ###灯塔的光就在彼岸  
-先看看[上次](http://appendix.pw/%E7%A6%BB%E4%BA%BA/)（大三寒假）到现在  
+先看看[上次](http://appendix.cc/%E7%A6%BB%E4%BA%BA/)（大三寒假）到现在  
 #####做的事：  
 寒假看C++  
 开学感冒还去选校队结果肺炎一个月没动弹  
 清明出游  
-花了一个月不眠不休，就连清明节出去玩也都在看各种文档，脑子里都是各种想法，最后还是被虐，见[阿里推荐算法总结](http://appendix.pw/Alibaba_Recommand_Contest/)  
+花了一个月不眠不休，就连清明节出去玩也都在看各种文档，脑子里都是各种想法，最后还是被虐，见[阿里推荐算法总结](http://appendix.cc/Alibaba_Recommand_Contest/)  
 找实习各种被虐不是石沉大海就是半路夭折心脏倒是越来越结实  
 手头好多好多书还在看  
 细胞识别项目撂挑子了好惭愧  
@@ -68,7 +68,7 @@ A&T（哈哈这么刚好）还有微软进入笔试，T笔试自我感觉良好�
 学习：  
 1. 编译器基础东西，龙书虎书  
 2. 软工，代码大全，重构  
-3. 机器学习，见[阿里推荐算法总结](http://appendix.pw/Alibaba_Recommand_Contest/)最后  
+3. 机器学习，见[阿里推荐算法总结](http://appendix.cc/Alibaba_Recommand_Contest/)最后  
 4. 算法，算法引论开始吧，算法导论还看了一半撂着  
 5. C+++， Effective STL， More Effective C++， STL源码剖析  
 6. 其他 程序员修炼之道，程序员的自我修养（很有趣的名字）  
