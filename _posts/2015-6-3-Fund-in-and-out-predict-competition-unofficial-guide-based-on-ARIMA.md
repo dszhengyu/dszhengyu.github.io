@@ -1,4 +1,4 @@
----
+﻿---
 layout: post  
 title:  资金流入流出非官方指南--ARIMA入门  
 date:   2015-06-03 15:47:00  
@@ -54,9 +54,9 @@ Pandas的DataFrame对象可以直接打印出来
 
         purchase = purchaseRedeemTotal['total_purchase_amt']#选取purchase 
         from statsmodels.tsa.stattools import acf, pacf  
-        purchaseACF = DataFrame(acf(purchase))
+        purchaseACF = pd.DataFrame(acf(purchase))
         purchaseACF.plot(title = 'purchaseACF', kind = 'bar')
-        purchasePACF = DataFrame(pacf(purchase))
+        purchasePACF = pd.DataFrame(pacf(purchase))
         purchasePACF.plot(title = 'purchasePACF', kind = 'bar')
  
  出来的图像是这样的:  
