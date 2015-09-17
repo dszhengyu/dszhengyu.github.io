@@ -1,4 +1,4 @@
-###Zheng Yu
+﻿###Zheng Yu
 ShanDong University  
 BS-2012 School of Information Science and Engineering  
 (+86) 183-6611-2317  
@@ -8,24 +8,19 @@ BS-2012 School of Information Science and Engineering
 ****  
 ###*Technical Skills *:  
 * Program language: C == C++ > Java == Python  
- >《K & R》《C Traps and Pitfalls》《Expert C Programming》  
-  《C++ Primer》《Effective C++》 《Inside C++ Object Model》  
-  《Head First Design Pattern》《Python for Data Analysis》  
-* Data structure and algorithm:  
- >《Data Structures and Algorithm Analysis in C》《CLRS》(half)  
-* Basic knowledge on computer science:  
- >《CSAPP》《Modern Operating System》《Assembly Language》《Vbird's Linux》  
-* Machine Learning  
- >Cousera Machine-Learning(Andrew Ng)  
-* Basic Knowledge： Computer vision, Network, Database, Software-Engineering  
- >《Learning Opencv》《Illustrate TCP/IP》  
+* Data structure and algorithm
+* Basic knowledge on computer science
+* Machine Learning 
 * English: Cet-6 538  
 ****  
 ###*Project Experience*：  
 * Nuclei Segmentation and Classification：[Source Code](https://github.com/dszhengyu/lj)  
  Qt(UI), opencv(image process to segment nuclei), svm&ann(nuclei classification)  
  Based on patent and paper, complete the software independently.  
+* Machine Learning Library  
+ Using C++, implement a few ml algorithms, such as Perceptron, KNN, Bayes  
+* Alibaba TianChi Big Data Competition
 ****  
 ###*University Experience*:  
 * [Captain of school soccer team](http://dwz.cn/IseFootballTeam): lead the team to win "SDU-Cup" twice.  
-* [Casdu](http://dwz.cn/Dxlic) 2013 Expedition team: Ride for 2000 km to MoHe with 26 teammates in a month.  
+* [Casdu](http://dwz.cn/Dxlic) 2013 Expedition team: Ride for 2000 km to MoHe with 26 teammates in a month. 
