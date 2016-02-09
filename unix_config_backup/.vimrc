@@ -13,6 +13,7 @@ set termencoding=utf-8
 set hlsearch
 set nocp
 set tags=~/tags
+syntax enable 
 
 
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm'\"")|else|exe "norm $"|endif
