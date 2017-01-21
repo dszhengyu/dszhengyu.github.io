@@ -8,7 +8,7 @@ permalink: Fat-Is-A-Sin
 
 肥头大耳, 白发苍苍
 
-##timeline    
+## timeline    
 3月返校    
 4月底毕业旅行    
 6月中旬毕业    
@@ -16,7 +16,7 @@ permalink: Fat-Is-A-Sin
 6月30号入职    
 至今    
     
-##毕设   
+## 毕设   
 如愿以偿做了基于Raft算法的分布式数据库, 取名cabinet    
 非常感谢老师对我的支持, 允许我自拟毕设题目    
 之前感觉做php后台开发就是各种业务逻辑    
