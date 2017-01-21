@@ -1,4 +1,4 @@
-﻿markdown: kramdown
+markdown: kramdown
 rouge: true
 paginate: 8
 
@@ -30,7 +30,7 @@ author:
     imageLink: /images/picture.jpg
     simpleIntro: Everything that kills me makes me feel alive.
     detailIntro:
-      <p>小弱一个，技术贴少，新路历程多，轻喷。</p>
+      <p>小弱一个，技术贴少，心路历程多，轻喷。</p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
