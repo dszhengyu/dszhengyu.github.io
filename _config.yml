@@ -1,5 +1,5 @@
 ﻿markdown: kramdown
-pygments: true
+rouge: true
 paginate: 8
 
 safe:  false
