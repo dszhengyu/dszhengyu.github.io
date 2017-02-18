@@ -10,7 +10,7 @@ description: Leave Some Footprint
 keywords: Jekyll Theme
 url: http://dszhengyu.github.io
 feed: /atom.xml
-favicon: http://jekyllrb.com/favicon.png
+favicon: /hulk.png
 
 #Nav config
 nav:
